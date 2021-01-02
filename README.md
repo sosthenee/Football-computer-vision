@@ -1,2 +1,4 @@
 # Football-computer-vision
-Projet de decouverte sur Tensorflow avec OpenCV. Objectif de tracking des joueurs sur des video de matchs 
+Tracking players and ball on matchs clips, using Tensorflow and OpenCV.
+Detecting the differents Teams playing and their pace.
+Recognize the ball and fit it's trajectory
