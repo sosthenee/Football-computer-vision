@@ -23,6 +23,14 @@ The boundarires.py file finds the HSV boundaries manualiy for Team detection
 The load_model_data.py file Load pipeline config and build a detection model and restore checkpoint so i can change the model easily
 
 
+<h2>Developpement tools</h2>
+<ul>
+<li>Tensorflow 2.0</li>
+
+<li>Python 3.8.6</li>
+</ul>
+
+
 # Important links:
 
 -For openCV circle detection : https://github.com/opencv/opencv/blob/3.4/samples/python/tutorial_code/ShapeDescriptors/bounding_rects_circles/generalContours_demo1.py
