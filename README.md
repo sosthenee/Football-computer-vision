@@ -9,7 +9,12 @@ This video inspired me: https://www.youtube.com/watch?v=GrAdG9r7shU&list=WL&inde
 See example gif below of the game of Arsenal against Leicester.
 we can identify all the players + referees, the soccer ball and also predict which team the player is based on the color of their jersey. (These teams have obviously a great jersey for recognition on a green pitch)
 
-![](football_deep.gif)
+![](result.gif)
+
+
+Filtration example on Arsenal's Jersey
+
+<img class="fit-picture" src="/media/cc0-images/grapefruit-slice-332-332.jpg">
 
 
 # Some informations 
