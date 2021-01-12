@@ -12,9 +12,9 @@ we can identify all the players + referees, the soccer ball and also predict whi
 ![](result.gif)
 
 
-Filtration example on Arsenal's Jersey
+<h3>Filtration example on Arsenal's Jersey :</h3>
 
-<img class="fit-picture" src="/media/cc0-images/grapefruit-slice-332-332.jpg">
+<img class="fit-picture" src="boundaries.png">
 
 
 # Some informations 
