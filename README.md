@@ -15,10 +15,13 @@ we can identify all the players + referees, the soccer ball and also predict whi
 # Some informations 
 The API provides pre-trained object detection models that have been trained on the COCO dataset.
 I have chosen the SSDLite mobilenet v2 because i was interested in real time analysis. 
+
 I have used the pre-trained model and it's weights but it would be more efficient with additional data for training the model on the defferents players 
 
 The boundarires.py file finds the HSV boundaries manualiy for Team detection
+
 The load_model_data.py file Load pipeline config and build a detection model and restore checkpoint so i can change the model easily
+
 
 # Important links:
 
