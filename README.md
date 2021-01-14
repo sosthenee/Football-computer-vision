@@ -8,6 +8,7 @@ This video inspired me: https://www.youtube.com/watch?v=GrAdG9r7shU&list=WL&inde
 # Demo
 See example gif below of the game of Arsenal against Leicester.
 we can identify all the players + referees, the soccer ball and also predict which team the player is based on the color of their jersey. (These teams have obviously a great jersey for recognition on a green pitch)
+The soccer Ball wasn't easily recognized because of it's size , I managed to find it with OpenCV manipulations ( filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
 
 ![](result.gif)
 
