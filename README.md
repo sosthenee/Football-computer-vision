@@ -6,9 +6,10 @@ Then i tried to recognize the ball and fit it's trajectory.
 This video inspired me: https://www.youtube.com/watch?v=GrAdG9r7shU&list=WL&index=42 
 
 # Demo
-See example gif below of the game of Arsenal against Leicester.
-we can identify all the players + referees, the soccer ball and also predict which team the player is based on the color of their jersey. (These teams have obviously a great jersey for recognition on a green pitch)
-The soccer Ball wasn't easily recognized because of it's size , I managed to find it with OpenCV manipulations ( filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
+See example gif below of the wonderfull team goal of Arsenal against Leicester.
+we can identify all the players + referees, the soccer ball and also predict in which team the player is, based on the color of their jersey. (These teams have obviously a great jersey for recognition on a green pitch)
+The soccer Ball wasn't easily recognized because of it's size with Tensorflow.
+I managed to find it with OpenCV manipulations ( filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
 
 ![](result.gif)
 
@@ -17,6 +18,11 @@ The soccer Ball wasn't easily recognized because of it's size , I managed to fin
 
 <img class="fit-picture" src="boundaries.png">
 
+<h3>Circles extracted after filtration:</h3>
+
+<h5>The socks where disturbing the process because they have the same color as the ball</h6>
+
+<img class="fit-picture" src="circles.png">
 
 # Some informations 
 The API provides pre-trained object detection models that have been trained on the COCO dataset.
