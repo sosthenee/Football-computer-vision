@@ -22,7 +22,7 @@ I managed to find it with OpenCV manipulations ( filter : Canny, BGR2GRAY, HSV B
 
 <h5>The socks where also disturbing the process because they have the same color as the ball</h6>
 
-<img class="fit-picture" src="circles.png" width="414" height="896">
+<img class="fit-picture" src="circles.png" width="414" height="736">
 
 # Some informations 
 The API provides pre-trained object detection models that have been trained on the COCO dataset.
