@@ -14,7 +14,7 @@ We can identify all the players + referees, the soccer ball and also predict in 
 The soccer Ball wasn't easily recognized because of it's size with Tensorflow.
 I managed to find it with some OpenCV manipulations      (filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
 
-![](result.gif)
+![](Detection_result.gif)
 
 
 <h3>Filtration example on Arsenal's Jersey :</h3>
