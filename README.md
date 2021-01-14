@@ -20,7 +20,7 @@ I managed to find it with OpenCV manipulations ( filter : Canny, BGR2GRAY, HSV B
 
 <h3>Circles extracted after filtration:</h3>
 
-<h5>The socks where also disturbing the process because they have the same color as the ball</h6>
+<h5>The player's socks where also disturbing the process because they have the same color as the ball</h6>
 
 <img class="fit-picture" src="circles.png" width="736" height="414">
 
