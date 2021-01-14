@@ -25,7 +25,7 @@ I managed to find it with some OpenCV manipulations      (filter : Canny, BGR2GR
 
 <h5>The player's socks where also disturbing the process because they have the same color as the ball</h6>
 
-<img class="fit-picture" src="circles.png" width="736" height="414">
+<img class="fit-picture" src="circles.png" >
 
 # Some informations 
 The API provides pre-trained object detection models that have been trained on the COCO dataset.
