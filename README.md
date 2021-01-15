@@ -62,7 +62,7 @@ https://docs.opencv.org/3.4/da/d0c/tutorial_bounding_rects_circles.html
 
 # Future Work
 
-Implement Optical flow to better follow and track the ball
+Implement Optical flow to more accuratly follow and track the ball
 
 We can imagine getting the pace of the players and the ball. This could be simpler with a stable footage
 
