@@ -1,18 +1,18 @@
 # Football Computer vision & Deep learning
-Tracking players and ball on matchs clips, using Tensorflow Object detection API and OpenCV. 
-Thanks to Computer Vison the project was to detecting the differents Teams playing and their pace.
-Then i tried to recognize the ball and fit it's trajectory.
+Tracking players and ball on match footage using Tensorflow Object detection API and OpenCV. 
+Using Computer Vison, the project detects the differents Teams playing and their pace.
+We then recognize the ball and attempt to fit its trajectory.
 
 This video inspired me: https://www.youtube.com/watch?v=GrAdG9r7shU&list=WL&index=42 
 
 # Demo
-See example gif below of the wonderfull team goal of Arsenal against Leicester.
+See the example GIF below of Arsenal's wonderful team goal against Leicester.
 
-We can identify all the players + referees, the soccer ball and also predict in which team the player is, based on the color of their jersey.
+We can identify all the players, the referee, the ball and also predict in which team the player is based on the color of their jersey.
 (These teams have obviously a great jersey for recognition on a green pitch)
 
-The soccer Ball wasn't easily recognized because of it's size with Tensorflow.
-I managed to find it with some OpenCV manipulations      (filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
+The soccer ball wasn't easily recognized because of its size.
+We managed to find it with some OpenCV manipulations      (filter : Canny, BGR2GRAY, HSV Boundaries ; Circles :findContours , minEnclosingCircle )
 
 ![](resultat.gif)
 
@@ -21,21 +21,21 @@ I managed to find it with some OpenCV manipulations      (filter : Canny, BGR2GR
 
 <img class="fit-picture" src="boundaries.png">
 
-<h3>Circles extracted after filtration:</h3>
+<h3>Circles extracted after applying the filter:</h3>
 
-<h5>The player's socks where also disturbing the process because they have the same color as the ball</h6>
+<h5>The players' socks were also disturbing the recognition process as they are the same color as the ball</h6>
 
 <img class="fit-picture" src="circles.png" >
 
-# Some informations 
-The API provides pre-trained object detection models that have been trained on the COCO dataset.
-I have chosen the SSDLite mobilenet v2 because i was interested in real time analysis. 
+# Some information 
+The API provides pre-trained object detection models that have been developed on the COCO dataset.
+We have chosen the SSDLite mobilenet v2 due to the interest in real time analysis. 
 
-I have used the pre-trained model and it's weights but it would be more efficient with additional data for training the model on the differents players  (Take some time obv)
+We have used the pre-trained model and its weights but it would be more efficient with additional data for training the model on the differents players (although this would obviously take more time).
 
-The boundarires.py file finds the HSV boundaries manualiy for Team detection
+The boundarires.py file finds the HSV boundaries manually for Team detection.
 
-The load_model_data.py file Load pipeline config and build a detection model and restore checkpoint so i can change the model easily
+The load_model_data.py file loads the pipeline configuration and builds a detection model, and then restores a checkpoint that allows the model to be changed easily.
 
 
 <h2>Developpement tools</h2>
@@ -62,10 +62,10 @@ https://docs.opencv.org/3.4/da/d0c/tutorial_bounding_rects_circles.html
 
 # Future Work
 
-Implement Optical flow to follow better the ball
+Implement Optical flow to better follow and track the ball
 
-We can imagine getting the pace of the players and of the ball. This could be simpler with a stable footage
+We can imagine getting the pace of the players and the ball. This could be simpler with a stable footage
 
-We can create a mini-map based on the players positions. 
+We can create a mini-map based on the players' positions. 
 
 An idea would be to help blind people to folow the game --> https://www.youtube.com/watch?v=0KE1lIeVBH8
